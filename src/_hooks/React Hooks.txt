@@ -1,0 +1,48 @@
+
+React Hooks :- 
+
+useState:-
+
+useState is React Hook that allows you to add state to a functional component.
+It returns an array with two values: the current state and a function to update it. 
+The Hook takes an initial state value as an argument and returns an updated state value whenever the 
+setter function is called.
+
+useEffect:-
+The useEffect Hook allows you to perform side effects in your components.
+Some examples of side effects are: fetching data, directly updating the DOM, and timers. 
+useEffect accepts two arguments.
+
+React usecontext :-
+React Context is a way to manage state globally
+
+Syntax => const authContext = useContext(initialValue);
+
+
+React usereducer :-
+useReducer is a React hook function that accepts a reducer function, 
+and an initial state. const [state, dispatch] = useReducer(reducer, initialState); 
+This hook function returns an array with 2 values.
+
+Syntax => const [state, dispatch] = useReducer(reducer, initialState);
+
+
+React useCallback :-
+
+The React useCallback Hook returns a memoized callback function.
+
+Syntax:
+
+const memoizedCallback = useCallback(
+ () => {
+   doSomething(a, b);
+ },
+ [a, b],
+);
+
+
+React SSR & CSR difference :- 
+
+The main difference is that for SSR your service response to the browser is the HTML of your page that is ready to be rendered,
+while for CSR the browser gets a pretty empty documents which links to your javaScript.
+
